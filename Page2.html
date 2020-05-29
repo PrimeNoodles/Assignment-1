@@ -2,31 +2,31 @@
 <html>
     <head>
         <title>Contact</title>
-    </head>
-    <h2>Contact Page</h2>
-    <body>
-        <p>For any questions or concerns please contact us at</p>
-        <ul>
-            <li>Phone: 1-718-888-9999</li>
-            <li>Fax: 1-718-888-9998</li>
-            <li>E-mail: familydonation@gmail.com</li>
-        </ul>
-    </body>
+        <link rel="stylesheet" type="text/css" href="donation.css">
 
+    </head>
+    <h2 class="headings3">Contact Page</h2>
+  
     <body>
 
         <div class="container">
             <form action="mailto:familydonation@gmail.com" method = "POST" name="EmailFrom">
+                <p>For any questions or concerns please contact us at</p>
+                <ul>
+                    <li>Phone: 1-718-888-9999</li>
+                    <li>Fax: 1-718-888-9998</li>
+                    <li>E-mail: familydonation@gmail.com</li>
+                </ul>
                 <label for = "email">E-mail: </label>
                 <input type = "text" id = "email" name = "email" placeholder="Enter your email .."> <br>
                 <label for="subject">Subject: </label>
-                <textarea type = "text" id="subject" name="subject" placeholder="Write something.."      style="height:10px"></textarea><br> 
+                <input type = "text" id = "subject" name = "subject" placeholder="Subject"> <br>
                 <label for="message">Message: </label>
-                 <br><textarea name= "message" rows="4" cols="20">
+                 <br><textarea name= "message" rows="8" cols="60">
                 </textarea><br><br> 
-                 <button type="submit">Submit</button>
-
             </form>
+            <button class = "donationButton" type="submit">Submit</button>
+
         </div>
         <p><a href="#"> link to Main</a></p>
         <p><a href="#"> link to Donation </a></p>
